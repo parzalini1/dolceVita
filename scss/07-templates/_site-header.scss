@@ -12,7 +12,14 @@
         height: 100%;
         position: absolute;
     }
-    
+
+    &__nav{
+        position: absolute;
+        width: 60%;
+        text-align: center;
+        margin-top:$grid-base * 3;
+    }
+
     &__h1 {
         position: absolute;
         bottom: 40%;
@@ -27,4 +34,6 @@
         left: 0;
         right: 0;
     }
+
+   
 }
