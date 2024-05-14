@@ -19,17 +19,17 @@
         <nav>
             <!-- to co w ul to tzw. mix-->
             <ul class="site-header __nav nav">
-                <li class="nav__item"><a class="nav__link" href="#">Start</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Menu</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Lokalizacja</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Kontakt</a></li>
+                <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
+                <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="#localization">Lokalizacja</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contakt">Kontakt</a></li>
             </ul>
         </nav>
         <h1 class="site-header__h1 heading--h1">Restauracja Dolce Vita</h1>
         <a class="site-header__button btn btn--red btn--circle" href="#">Menu</a>
     </header>
     <main>
-        <section class="site-section">
+        <section class="site-section" id="start">
             <h2 class="heading heading--h2">Start</h2>
             <div class="container">
                 <div class="row">
@@ -40,7 +40,48 @@
                 </div>
             </div>
         </section>
-        <section class="site-section">
+
+        <section class="site-section site-section--bg-color">
+            <h2 class="heading--h2" id="menu">Menu</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col--md50 col--lg25" >
+                        <!-- wg BEM BLOK-->
+                        <div class="image-box">
+                            <!-- wg BEM 2 ELEMENTY-->
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Lorem ipsum dolor sit.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25" >
+                        <!-- wg BEM BLOK-->
+                        <div class="image-box">
+                            <!-- wg BEM 2 ELEMENTY-->
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Lorem ipsum dolor sit.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25" >
+                        <!-- wg BEM BLOK-->
+                        <div class="image-box">
+                            <!-- wg BEM 2 ELEMENTY-->
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Lorem ipsum dolor sit.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25" >
+                        <!-- wg BEM BLOK-->
+                        <div class="image-box">
+                            <!-- wg BEM 2 ELEMENTY-->
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Lorem ipsum dolor sit.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="site-section" id="localization">
             <h2 class="heading--h2">Lokalizacja</h2>
             <div class="container">
                 <div class="row">
@@ -49,7 +90,10 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section class="site-section" id="contakt">
+            <h2 class="heading--h2">Kontakt</h2>
         </section>
     </main>
 </body>
