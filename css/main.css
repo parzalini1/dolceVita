@@ -240,7 +240,7 @@ p {
   border-top-right-radius: 6px;
 }
 .image-box__image--next {
-  background: url("/assets/img/two.jpeg") center/cover;
+  background: url("../assets/img/two.jpeg") center/cover;
 }
 .image-box__text {
   text-align: center;
