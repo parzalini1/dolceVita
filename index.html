@@ -22,7 +22,7 @@
                 <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
                 <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
                 <li class="nav__item"><a class="nav__link" href="#localization">Lokalizacja</a></li>
-                <li class="nav__item"><a class="nav__link" href="#contakt">Kontakt</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
             </ul>
         </nav>
         <h1 class="site-header__h1 heading--h1">Restauracja Dolce Vita</h1>
@@ -92,9 +92,35 @@
             </div>
         </section>
 
-        <section class="site-section" id="contakt">
-            <h2 class="heading--h2">Kontakt</h2>
+        <section class="site-contact" id="contact">
+            <div class="site-contact__blackout blackout"></div>
+            <h2 class="heading--h2 site-contact__h2">Kontakt</h2>
+            <div class="container ">
+                <div class="row">
+                    <div class="col">
+                        <form class="form site-contact__form">
+                            <label class="form__label" for="email">Podaj Twój email:</label>
+                            <input class="form__item" type="email" if="email">
+                            <label class="form__label" for="title">Temat wiadomości:</label>
+                            <input class="form__item" type="text" id="title">
+                            <label class="form__label" for="message">Treść:</label>
+                            <textarea class="form__item" id="message" cols="15" rows="5"></textarea>
+                            <input class="form__item btn btn--outline" type="submit" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <p class="col col--md33 text-align-center">Lorem ipsum dolor sit amet.</p>
+                <p class="col col--md33 text-align-center">Lorem ipsum dolor sit amet.</p>
+                <p class="col col--md33 text-align-center">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
